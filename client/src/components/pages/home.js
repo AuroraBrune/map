@@ -1,20 +1,15 @@
 import React from "react";
-// import { ReactDOM } from "react-dom";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from "./main";
 import Map from "./map";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const Home = () => (
- <Router>
+
+function Home() {
+ return(
   <Switch>
-   <Route exact path="/">
-    <Main />
-   </Route>
-   <Route path="/map">
-    <Map />
-   </Route>
+   <Route exact path="/" component={Main} /> 
+   <Route path="/map" component={Map} />
   </Switch>
- </Router>
-);
-
+ );
+}
 export default Home;
