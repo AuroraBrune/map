@@ -4,7 +4,8 @@ import './style.css';
 function Footer() {
  return (
   <footer className="footer">
-   <h1>Hello</h1>
+   <h4>Aurora Brune 
+    Copyright &copy; 2021</h4>
   </footer>
  );
 }

@@ -15,7 +15,8 @@ body {
   .App-content {
     align-items: flex-end;
     justify-content: center;
-  }
+  } 
+ }
+.openModalBtn:disabled {
+  display: none !important;
 }
-
-
