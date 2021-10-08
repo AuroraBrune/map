@@ -8,8 +8,8 @@ function AppBar() {
   <div className="header">
    <Header title="Map App">
 
-    <Link to="/">Main</Link>
-    <Link to="/map">Map</Link>
+    <Link className="headerLink" to="/">Main</Link>
+    <Link className="headerLink" to="/map">Map</Link>
 
    </Header>
   </div>

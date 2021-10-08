@@ -3,7 +3,7 @@ import './style.css';
 
 function Footer() {
  return (
-  <footer className="footer">
+  <footer className="pageFooter">
    <h4>Aurora Brune 
     Copyright &copy; 2021</h4>
   </footer>
