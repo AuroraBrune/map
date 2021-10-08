@@ -1,25 +1,76 @@
-
+/* html,
+body,
+#root,
+#root > div {
+  height: 100%;
+  margin: 0;
+} */
 .modalBackground {
   width: 100vw;
   height: 100vh;
+  padding-bottom: 50px !important;
+  margin-bottom: 10px;
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .modalContainer {
-  background-image: url('../assets/world-map.png');
+  background-image: url('../assets/world-map-small.png');
   text-align:center;
   vertical-align: middle;
-
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  width: 95%;
-  height: 95%;
+  width: 100vw;
+  height: 95vh;
+
   border-radius: 12px;
-  background-color: white; 
+  background-color: lightsteelblue; 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
 } 
+.titleCloseBtn  { 
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); 
+  color: white;
+  border-radius: 12px 12px 0px 0px;
+
+}
+.modFooter  {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  width: 100%;
+  position: flex;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.closeModBtn {
+  color: white;
+
+  background: rgb(2, 0, 36);
+background: linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 9, 121, 1) 35%,
+  rgba(0, 212, 255, 1) 100%
+  
+);
+
+}
+
+
 
