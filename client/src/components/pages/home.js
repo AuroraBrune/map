@@ -6,10 +6,11 @@ import { Switch, Route } from "react-router-dom";
 
 function Home() {
 
- return(
+ return (
   <Switch>
    <Route exact path="/" component={Main} /> 
    <Route path="/map" component={Map} />
+   
   </Switch>
  );
 }
