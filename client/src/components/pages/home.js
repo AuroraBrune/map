@@ -3,14 +3,12 @@ import Main from "./main";
 import Map from "./map";
 import { Switch, Route } from "react-router-dom";
 
-
 function Home() {
 
  return (
   <Switch>
-   <Route exact path="/*" component={Main} /> 
+   <Route exact path="/" component={Main} />
    <Route path="/map" component={Map} />
-   
   </Switch>
  );
 }
