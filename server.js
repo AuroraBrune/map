@@ -4,11 +4,11 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json()); //Used to parse JSON bodies
 app.use(express.urlencoded({ extended: true })); //Parse URL-encoded bodies
-app.use(express.static(path.join(__dirname, 'build')));
+// app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('/*', function (req, res) {
- res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+// app.get('/*', function (req, res) {
+//  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
 
 app.listen(PORT, () => {
