@@ -8,7 +8,7 @@ function Home() {
 
  return (
   <Switch>
-   <Route exact path="/" component={Main} /> 
+   <Route exact path="/*" component={Main} /> 
    <Route path="/map" component={Map} />
    
   </Switch>

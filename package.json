@@ -1,10 +1,11 @@
 {
   "name": "map",
   "version": "1.0.0",
+  "homepage": "https://AuroraBrune.github.io/map",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
@@ -20,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/AuroraBrune/map/issues"
   },
-  "homepage": "https://github.com/AuroraBrune/map",
+  
   "dependencies": {
     "express": "^4.17.1",
     "node-env-run": "^4.0.2",
