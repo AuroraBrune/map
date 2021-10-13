@@ -21,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/AuroraBrune/map/issues"
   },
-  
   "dependencies": {
     "express": "^4.17.1",
     "node-env-run": "^4.0.2",
