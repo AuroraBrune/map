@@ -4,7 +4,6 @@ import Map from "./map";
 import { Switch, Route } from "react-router-dom";
 
 function Home() {
-
  return (
   <Switch>
    <Route exact path="/" component={Main} />
