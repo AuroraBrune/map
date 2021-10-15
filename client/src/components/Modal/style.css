@@ -41,7 +41,7 @@ body,
   ); 
   color: white;
   border-radius: 12px 12px 0px 0px;
-
+  margin-top: -1px;
 }
 .modFooter  {
   background: rgb(2, 0, 36);
@@ -69,7 +69,25 @@ background: linear-gradient(
   rgba(0, 212, 255, 1) 100%
   
 );
-
+}
+.title h1{
+  width: 500px;
+  padding-left: 10px;
+  color: rgba(9, 9, 121, 1)
+}
+.pinContainer {
+  margin-top: 30px;
+  margin-left: 100px;
+  padding-top: 10px;
+  float: left;
+  height: 75px;
+  width: 175px;
+  background: rgba(0, 212, 255, 1);
+  border: 2px solid rgba(9, 9, 121, 1);
+}
+.pin {
+  display: inline-block;
+  margin: 10px;
 }
 
 
