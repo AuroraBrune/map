@@ -19,12 +19,18 @@ function Modal({ closeModal }) {
           <button className="closeModBtn" onClick={() => closeModal(false)}>Close</button>
         </div>
         <div className="title">
-          <h1>Map Page. Have fun.</h1>
-          <Pin />
+          <h1>Select a pin to place on the map.</h1>
         </div>
+          <div className="pinContainer">
+            <div className="redPin pin" style={{color:'red'}}><Pin/></div>
+            <div className="bluePin pin" style={{ color: 'blue' }}><Pin /></div>
+            <div className="yellowPin pin" style={{ color: 'yellow' }}><Pin/></div>
+            <div className="blackPin pin" style={{ color: 'black' }}><Pin/></div> 
+          </div>
+        
       </div>
-    </div>
-  )
+      </div>
+  );
 }
 
 export default Modal;
